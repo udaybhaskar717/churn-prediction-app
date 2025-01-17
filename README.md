@@ -69,7 +69,7 @@ The solution was developed as follows:
 2. While recall for churned customers (Class 1) is 78%, precision is 49%, indicating the need for targeted retention efforts.
 
 #### **ROC Curve**
-![ROC Curve](path-to-your-roc-curve.png)
+![ROC Curve](roc_curve_AdaBoost.png)
 
 ---
 
