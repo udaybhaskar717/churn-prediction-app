@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Customer Churn Prediction System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Enterprise Customer Churn Prediction System</h1>
+            <p class="text-lg text-gray-600">ML Pipeline with Real-Time Inference</p>
+        </header>
+
+        <section class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Overview</h2>
+            <p class="text-gray-600 mb-4">
+                A production-ready machine learning system that predicts customer churn with 83% ROC-AUC accuracy. 
+                The solution includes a containerized Flask API for real-time predictions and an intuitive web interface.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-blue-800 mb-2">Key Achievements</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li>• 83% ROC-AUC score in churn prediction</li>
+                        <li>• Docker-containerized Flask API</li>
+                        <li>• Automated feature engineering pipeline</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-green-800 mb-2">Technologies</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li>• Python, Scikit-learn, XGBoost</li>
+                        <li>• Flask, Docker</li>
+                        <li>• SMOTE, GridSearchCV</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Technical Implementation</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Data Pipeline</h3>
+                    <p class="text-gray-600">
+                        Processed 7000+ customer records with 19 features using automated preprocessing pipeline. 
+                        Implemented one-hot encoding and feature standardization for optimal model performance.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Model Development</h3>
+                    <p class="text-gray-600">
+                        Evaluated multiple models including Logistic Regression, Random Forest, XGBoost, and AdaBoost. 
+                        Applied SMOTE for handling imbalanced data and GridSearch for hyperparameter optimization.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">Deployment</h3>
+                    <p class="text-gray-600">
+                        Built scalable Flask API with Docker containerization for real-time predictions. 
+                        Implemented user-friendly web interface for easy model interaction.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Project Structure</h2>
+            <pre class="bg-gray-50 p-4 rounded-lg text-sm text-gray-700">
+churn-prediction-app/
+├── app.py                   # Flask backend
+├── Dockerfile              # Docker configuration
+├── requirements.txt        # Dependencies
+├── static/                # CSS and JavaScript files
+├── templates/             # Frontend HTML files
+├── model/                 # Trained model artifacts
+└── README.md              # Project documentation
+            </pre>
+        </section>
+    </div>
+</body>
+</html>
