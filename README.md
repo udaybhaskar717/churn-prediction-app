@@ -9,9 +9,9 @@ The goal of this project is to predict customer churn based on customer behavior
 ---
 
 ### **2. Dataset**
-- **Source**: [Include dataset source if available publicly].
+- **Source** : (https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
 - **Number of features**: 19
-- **Number of records**: [Mention dataset size].
+- **Number of records**: 7043 X 21 .
 - **Target Variable**: `Churn` (Binary: 1 for churned customers, 0 for retained customers).
 
 ---
